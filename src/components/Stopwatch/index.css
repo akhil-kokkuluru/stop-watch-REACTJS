@@ -1,0 +1,136 @@
+.totalContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 100px;
+}
+@media screen and (min-width: 768px) {
+  .totalContainer {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  }
+  .heading {
+    font-size: 80px;
+  }
+}
+.timerBg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 20px;
+}
+
+.timerLogo {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+.timerCss {
+  font-family: 'Roboto';
+  font-size: 27px;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 300;
+}
+@media screen and (min-width: 768px) {
+  .timerCss {
+    font-size: 58px;
+    font-weight: bold;
+  }
+  .timerLogo {
+    width: 40px;
+    height: 40px;
+  }
+  .timerBg {
+    width: 500px;
+    height: 500px;
+    justify-content: space-around;
+  }
+}
+.time {
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .time {
+    font-size: 80px;
+  }
+}
+.imgHeadingContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+.startButton {
+  width: 60px;
+  height: 25px;
+  border-radius: 5px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  background-color: #1db05f;
+  border: 0px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.stopButton {
+  width: 60px;
+  height: 25px;
+  border-radius: 5px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  background-color: #ef0d36;
+  border: 0px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.resetButton {
+  width: 60px;
+  height: 25px;
+  border-radius: 5px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  background-color: #eaa800;
+  border: 0px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .startButton {
+    width: 120px;
+    height: 50px;
+    font-size: 25px;
+  }
+  .stopButton {
+    width: 120px;
+    height: 50px;
+    font-size: 25px;
+  }
+  .resetButton {
+    width: 120px;
+    height: 50px;
+    font-size: 25px;
+  }
+  .buttonsContainer {
+    width: 90%;
+  }
+}
